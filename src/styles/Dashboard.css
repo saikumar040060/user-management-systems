@@ -1,0 +1,130 @@
+/* Base Styles */
+.dashboard {
+    font-family: 'Inter', sans-serif;
+    color: #2D3748;
+    background: #F7FAFC;
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .dashboard-nav button {
+    margin-left: 1.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .dashboard-nav button.active {
+    color: #4C51BF;
+    border-bottom: 2px solid #4C51BF;
+  }
+  
+  .cta-button {
+    background: #4C51BF;
+    color: white;
+    border-radius: 6px;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: linear-gradient(135deg, #667EEA 0%, #764BA2 100%);
+    color: white;
+    padding: 4rem 2rem;
+    border-radius: 12px;
+    margin: 2rem;
+  }
+  
+  .hero-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .primary-button {
+    background: white;
+    color: #4C51BF;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    border: none;
+    font-weight: 600;
+  }
+  
+  .secondary-button {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 600;
+  }
+  
+  /* Metrics Section */
+  .metrics-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 2rem;
+  }
+  
+  .metric-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .metric-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #4C51BF;
+  }
+  
+  .metric-value span {
+    font-size: 1rem;
+    color: #718096;
+  }
+  
+  /* AI Section */
+  .ai-section {
+    margin: 2rem;
+  }
+  
+  .subscription-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .price {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem 0;
+  }
+  
+  .subscribe-button {
+    background: #4C51BF;
+    color: white;
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+  }
